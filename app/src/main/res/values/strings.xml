@@ -9,6 +9,13 @@
     <string name="president_content">・The president of LiT is Mr.Mizuno.</string>
     <string name="president_meaning">社長</string>
 
+    <string name="walk_title">walk</string>
+    <string name="walk_content">・He go for a walk with his dog.</string>
+    <string name="walk_meaning">散歩</string>
+
+    <string name="jump_title">jump</string>
+    <string name="jump_content">・He can jump over the car.</string>
+    <string name="jump_meaning">ジャンプ</string>
 
 
 </resources>

@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         mCards.add(new Card(R.drawable.chabudai,getString(R.string.chabudai_title),getString(R.string.chabudai_content),getString(R.string.chabudai_meaning)));
         mCards.add(new Card(R.drawable.shacho,getString(R.string.president_title),getString(R.string.president_content),getString(R.string.president_meaning)));
-
+        mCards.add(new Card(R.drawable.sanpo,getString(R.string.walk_title),getString(R.string.walk_content),getString(R.string.walk_meaning)));
+        mCards.add(new Card(R.drawable.jump,getString(R.string.jump_title),getString(R.string.jump_content),getString(R.string.jump_meaning)));
         mCardAdapter=new CardAdapter(this,R.layout.card,mCards);
         mListView.setAdapter(mCardAdapter);
     }

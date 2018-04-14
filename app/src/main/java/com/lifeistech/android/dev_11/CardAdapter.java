@@ -5,6 +5,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -59,6 +61,13 @@ public class CardAdapter extends ArrayAdapter<Card> {
                 public void onClick(View view) {
                     item.likeNum++;
                     viewHolder.likeTextView.setText(item.likeNum + "Likes");
+
+                    Animation animation= AnimationUtils.loadAnimation(getContext(),R.anim.like_touch);
+                    viewHolder.likeButton.startAnimation(animation);
+                    if(item.likeNum%2==1)
+                    viewHolder.likeButton.setImageResource(R.drawable.ic_star_black_24dp);
+                    else
+                        viewHolder.likeButton.setImageResource(R.drawable.ic_star_border_black_24dp);
                 }
             });
             Log.d("onclick","");
