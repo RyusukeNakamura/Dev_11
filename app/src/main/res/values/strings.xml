@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dev_11</string>
+
+    <string name="chabudai_title">cahbudai</string>
+    <string name="chabudai_content">・He turned over chabudai with anger.</string>
+    <string name="chabudai_meaning">ちゃぶ台</string>
+
+    <string name="president_title">president</string>
+    <string name="president_content">・The president of LiT is Mr.Mizuno.</string>
+    <string name="president_meaning">社長</string>
+
+
+
+</resources>
+
